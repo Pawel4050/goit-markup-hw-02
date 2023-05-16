@@ -57,6 +57,31 @@ h1 {
   background-color: rgba(47, 48, 58, 1);
 }
 
+h2 {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #212121;
+}
+
+p {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  
+    color: #757575;
+}
+
 .contact-header {
   font-family: 'Roboto';
   font-style: normal;
