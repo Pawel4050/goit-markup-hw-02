@@ -3,110 +3,21 @@ body {
   color: #212121;
 }
 
-a {
-  text-decoration: none;
-}
-
-.accent {
-  font-family: 'Raleway';
+.logo{font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-  
   letter-spacing: 0.03em;
-  
   color: #2196F3;
-  
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  text-decoration: none;
+  }
 
-.logo {
-  font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    /* identical to box height */
-  
-    letter-spacing: 0.03em;
-    color: black;
-  
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+.logo-studio{
+    color: #000000;
+    }
 
-.bookmark {font-family: 'Roboto';
-  font-style: normal;
+.navigation {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-
-li {
   list-style-type: none;
-}
-
-h1 {
-  font-size: 44px;
-  color: rgba(255, 255, 255, 1);
-  line-height: 1.4;
-  background-color: rgba(47, 48, 58, 1);
-}
-
-h2 {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: #212121;
-}
-
-p {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
-  
-    color: #757575;
-}
-
-.contact-header {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.button-studio {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
 }
