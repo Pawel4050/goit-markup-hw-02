@@ -11,12 +11,36 @@ body {
     font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
-        text-align: left;
         color: var(--brand-color);
 }
 .logo-web {
-    
         color: #4D5AE5;
+}
+
+.site-nav {
+    list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--brand-color)
+}
+
+.link-nav {
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+.contact {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+        text-decoration: none;
+        font-style: normal;
 }
