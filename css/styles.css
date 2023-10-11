@@ -14,6 +14,7 @@ body {
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        text-align: left;
         color: var(--brand-color);
 }
 .logo-web {
@@ -100,5 +101,9 @@ body {
                 color: var(--brand-color);
 }
 .we-doing {
+        list-style: none;
+}
+
+.team-list {
         list-style: none;
 }
