@@ -4,6 +4,7 @@ body {
 
 :root {
     --brand-color:#2E2F42;
+    --slate-color:#434455;
 }
 
 .logo-link {
@@ -40,7 +41,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
-        color: #434455;
+        color: var(--slate-color);
         text-decoration: none;
         font-style: normal;
 }
@@ -66,4 +67,38 @@ body {
         color: #FFFFFF;
         background-color: #4D5AE5;
         cursor: pointer;
+}
+
+.section2-list {
+        list-style: none;
+}
+
+.strategy {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color: var(--brand-color);
+}
+
+.section2-describe {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color: var(--slate-color);
+}
+
+.head2 {
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: var(--brand-color);
+}
+.we-doing {
+        list-style: none;
 }
