@@ -6,6 +6,7 @@ body {
     --brand-color:#2E2F42;
     --slate-color:#434455;
     --activate-color: #4D5AE5;
+    --ocean: #404BBF;
 }
 
 .logo-link {
@@ -159,4 +160,8 @@ body {
                 letter-spacing: 0.02em;
                 text-align: left;
                 color: #F4F4FD;
+}
+
+.buttons-list {
+        list-style: none;
 }
