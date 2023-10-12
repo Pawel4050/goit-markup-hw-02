@@ -107,3 +107,45 @@ body {
 .team-list {
         list-style: none;
 }
+
+.team-names {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: var(--brand-color);
+}
+
+.team-descr {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: var(--slate-color);
+}
+
+.footer {
+        background-color: var(--brand-color);
+}
+
+.logo-link-footer {
+        text-decoration: none;
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 800;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-align: left;
+        color: #F4F4FD;
+}
+
+.text-footer {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: left;
+                color: #F4F4FD;
+}
