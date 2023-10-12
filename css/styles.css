@@ -5,6 +5,7 @@ body {
 :root {
     --brand-color:#2E2F42;
     --slate-color:#434455;
+    --activate-color: #4D5AE5;
 }
 
 .logo-link {
@@ -36,6 +37,11 @@ body {
     color: var(--brand-color);
 }
 
+.link-nav:hover,
+.link-nav:focus {
+        color: var(--activate-color);
+}
+
 .contact {
         font-size: 16px;
         font-weight: 400;
@@ -45,6 +51,11 @@ body {
         color: var(--slate-color);
         text-decoration: none;
         font-style: normal;
+}
+
+.contact:hover,
+.contact:focus {
+        color: var(--activate-color);
 }
 
 .section1 {
