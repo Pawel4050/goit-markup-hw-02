@@ -174,10 +174,33 @@ letter-spacing: 0.04em;
 text-align: center;
 color:#4D5AE5;
 background-color: #E7E9FC;
+cursor: pointer;
 }
 
 .menu-button:hover,
 .menu-button:active {
         color: #FFFFFF;
         background-color: var(--ocean);
+}
+
+.portfolio-list {
+        list-style: none;
+}
+
+.header3 {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
+color: var(--brand-color);
+}
+
+.header4 {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: var(--slate-color);
 }
